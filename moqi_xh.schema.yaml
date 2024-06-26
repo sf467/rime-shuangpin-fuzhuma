@@ -89,19 +89,19 @@ speller:
     # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
 
     ## 飞键 可选择性开启
-    - derive/^([y])j/$1f/
-    - derive/^qx/qw/
-    - derive/^xq/xo/
-    - derive/^qq/qo/
-    - derive/^ww/wi/
-    - derive/^y([a-df-qs-z])/e$1/ # y -> e互击
-    - derive/^j([a-twyz])/f$1/ # j -> f互击
+    # - derive/^([y])j/$1f/
+    # - derive/^qx/qw/
+    # - derive/^xq/xo/
+    # - derive/^qq/qo/
+    # - derive/^ww/wi/
+    # - derive/^y([a-df-qs-z])/e$1/ # y -> e互击
+    # - derive/^j([a-twyz])/f$1/ # j -> f互击
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
-    - derive/^([y])h/$1g/
+    # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
-    - derive/^([rgv])c/$1n/
+    # - derive/^([rgv])c/$1n/
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
